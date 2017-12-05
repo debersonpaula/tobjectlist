@@ -1,4 +1,4 @@
-const DebugMode = true;
+const DebugMode = false;
 function DebugLog(msg: string){
     if (DebugMode){
         console.log(msg);
