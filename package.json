@@ -1,11 +1,19 @@
 {
   "name": "tobjectlist",
   "version": "0.0.1",
-  "description": "",
+  "description": "Small component to handle an Object List.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "D.A.Paula",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debersonpaula/tobjectlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/debersonpaula/tobjectlist/issues"
+  },
+  "homepage": "https://github.com/debersonpaula/tobjectlist#readme"
 }
