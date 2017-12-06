@@ -9,38 +9,38 @@ function DebugLog(msg: string, color?: string){
 import { TObject, TObjectList } from './main';
 
 class TObj1 extends TObject{
-    public Create(fn?: Function) {
+    protected DoCreate(fn?: Function) {
         DebugLog('TObj1/Create','35');
-        super.Create(fn);
+        super.DoCreate(fn);
     }
 }
 
 class TObj2 extends TObject{
-    public Create(fn?: Function) {
+    protected DoCreate(fn?: Function) {
         DebugLog('TObj2/Create','35');
         //simulated async event
         setTimeout(() => {
-            super.Create(fn);    
+            super.DoCreate(fn);    
         }, 1500);
     }
 }
 
 class TObj3 extends TObject{
-    public Create(fn?: Function) {
+    protected DoCreate(fn?: Function) {
         DebugLog('TObj3/Create','35');
         //simulated async event
         setTimeout(() => {
-            super.Create(fn);    
+            super.DoCreate(fn);    
         }, 700);
     }
 }
 
 class TObj4 extends TObject{
-    public Create(fn?: Function) {
+    protected DoCreate(fn?: Function) {
         DebugLog('TObj4/Create','35');
         //simulated async event
         setTimeout(() => {
-            super.Create(fn);    
+            super.DoCreate(fn);    
         }, 3000);
     }
 }
