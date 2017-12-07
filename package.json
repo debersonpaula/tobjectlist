@@ -1,6 +1,6 @@
 {
   "name": "tobjectlist",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Small component to handle an Object List.",
   "main": "index.js",
   "scripts": {
